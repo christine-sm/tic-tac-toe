@@ -11,6 +11,14 @@
   src: url('BlackBoard.ttf');
 }
 
+h1 {
+  color: #f4f4f0;
+}
+
+h1, h2, button {
+  font-family: "myChalk", "Chalkboard", sans-serif;
+}
+
 body {
   background: url('chalkboard-backgrounds/chalkboard-blue.jpg');
   background-size: cover;
