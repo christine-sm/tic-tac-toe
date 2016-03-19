@@ -66,7 +66,9 @@ function clearBoard(event) {
   }
   isO = false;
   h2.html("X's Turn")
-        .removeClass("winner");
+        .removeClass("winner")
+        .removeClass("os")
+        .addClass("xs");
 }
 
 //When all three values in the array 1) have a value and 2) have matching values, then that value is the winner!
