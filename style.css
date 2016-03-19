@@ -13,6 +13,9 @@
 
 body {
   background: url('chalkboard-backgrounds/chalkboard-blue.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 h2 {
