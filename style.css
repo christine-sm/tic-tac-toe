@@ -59,3 +59,11 @@ td {
 .os {
   color: #fad48b;
 }
+
+@media (max-width: 480px) {
+  td {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+  }
+}
